@@ -11,11 +11,7 @@ header {
 
 footer {
     background-color: black;
-    height: 30px;
-}
-
-.user-buttons a {
-    margin: 2px;
+    height: 70px;
 }
 
 .user-buttons {
@@ -29,6 +25,11 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
@@ -50,9 +51,11 @@ footer {
 
 
 .fa,
-.gender-type {
+.gender-type,
+.privacy-policy a {
     color: white;
     text-decoration: none;
+    margin-right: 2px;
 }
 
 .main-logo {
@@ -96,17 +99,31 @@ footer {
     margin: 20px 10px 0;
 }
 
-
-.flex-column {
-    display: flex;
-    flex-direction: column;
-}
-
 .contacts {
     color: white;
     margin-top: 20px;
     justify-content: space-between;
     align-items: center;
+}
+
+.srl {
+    color: white;
+    font-weight: bold;
+    font-size: .9rem;
+    margin-bottom: 5px;
+}
+
+.privacy-policy  {
+    font-size: .7rem;
+}
+
+.find {
+    font-weight: bold;
+    font-size: .8rem;
+    padding-bottom: 5px;
+}
+.social {
+    text-align: center;
 }
 
 .relative-pos{
