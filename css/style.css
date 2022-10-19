@@ -1,0 +1,78 @@
+/* RESET */
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: orange;
+    height: 30px;
+}
+
+nav {
+    text-align: center;
+
+}
+
+footer {
+    background-color: black;
+    height: 30px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.gender,
+.user-buttons {
+    flex-basis: 20%;
+}
+
+.main-logo {
+    flex-basis: 60%;
+}
+
+.dress {
+    height: 350px;
+    width: 200px;
+    margin-top: 20px;
+    background-color: lightgrey;
+}
+
+.central-dress {
+    margin: 20px 10px 0;
+}
+
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts {
+    color: white;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.relative-pos{
+    position: relative;
+}
+
+.absolute-p {
+    position: absolute;
+}
