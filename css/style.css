@@ -86,7 +86,7 @@ margin: 10px 0;
 
 .dress {
     width: calc((100% / 3) - 7px);
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
 .brand,
@@ -112,7 +112,7 @@ margin: 10px 0;
 }
 
 .central-dress {
-    margin: 20px 10px 0;
+    margin: 100px 10px 0;
 }
 
 .contacts {
@@ -146,6 +146,46 @@ margin: 10px 0;
     position: relative;
 }
 
-.absolute-p {
+.absolute-pos {
     position: absolute;
+}
+
+.favorite {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    font-size: 1.7rem;
+    text-align: center;
+    top: 2%;
+    left: calc(100% - 35px)
+}
+
+.favorite:hover {
+    color:red
+}
+
+.discount50,
+.discount30 {
+    background-color: red;
+    top: 82%;
+}
+
+.sustain,
+.sustain_two,
+.discount50,
+.discount30 {
+    color:white;
+    font-weight: bold;
+    padding: 2px 7px;
+    font-size: .8rem;
+}
+
+.sustain_two {
+    left: calc(35px + 3%);
+}
+
+.sustain,
+.sustain_two {
+    background-color: green;
+    top: 82%;
 }
