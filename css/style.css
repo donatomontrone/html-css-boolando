@@ -13,6 +13,20 @@ footer {
     height: 70px;
 }
 
+
+.second-img {
+    display: none;
+}
+
+article:hover  .second-img{
+    display:block;
+}
+
+article:hover .first-img{
+    display: none;
+}
+
+
 .user-buttons {
     text-align: center;
     margin: 10px 0;
@@ -57,14 +71,13 @@ footer {
 .gender{
 text-align: end;
 margin: 10px 0;
+padding-right: 110px;
 }
 
 
 .gender-type {
     font-size: .8rem;
-    font-weight: bold;
 }
-
 
 .fa,
 .gender-type,
@@ -94,10 +107,8 @@ margin: 10px 0;
     font-size: .8rem;
 }
 
-.dress-type,
-.price{
-    font-weight: bold;
-
+.brand {
+    margin-top: 5px;
 }
 .price {
     font-size: .8rem;
@@ -124,7 +135,6 @@ margin: 10px 0;
 
 .srl {
     color: white;
-    font-weight: bold;
     font-size: .9rem;
     margin-bottom: 5px;
 }
@@ -134,7 +144,6 @@ margin: 10px 0;
 }
 
 .find {
-    font-weight: bold;
     font-size: .8rem;
     padding-bottom: 5px;
 }
@@ -175,17 +184,20 @@ margin: 10px 0;
 .discount50,
 .discount30 {
     color:white;
-    font-weight: bold;
-    padding: 2px 7px;
+    padding: 2px 9px;
     font-size: .8rem;
 }
 
 .sustain_two {
-    left: calc(35px + 3%);
+    left: calc(35px + 3.1%);
 }
 
 .sustain,
 .sustain_two {
     background-color: green;
     top: 82%;
+}
+
+.bold {
+    font-weight: bold;
 }
