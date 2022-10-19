@@ -8,17 +8,28 @@
 header {
     background-color: #FF6801;
 }
-
 footer {
     background-color: black;
     height: 70px;
 }
 
 .user-buttons {
-    text-align: end;
+    text-align: center;
+    margin: 10px 0;
+    padding-right: 20px;
 }
 .flex {
     display: flex;
+}
+
+.fixed {
+    height: 40.7px;
+    width: 100%;
+    z-index: 1;
+    background-color: #FF6801;
+    position: fixed;
+    display: flex;
+    justify-content: center;
 }
 
 .flex-centered {
@@ -40,7 +51,12 @@ footer {
 
 .gender,
 .user-buttons {
-    flex-basis: 20%;
+    flex-basis: 25%;
+}
+
+.gender{
+text-align: end;
+margin: 10px 0;
 }
 
 
