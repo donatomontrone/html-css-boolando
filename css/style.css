@@ -6,13 +6,7 @@
 }
 
 header {
-    background-color: orange;
-    height: 30px;
-}
-
-nav {
-    text-align: center;
-
+    background-color: #FF6801;
 }
 
 footer {
@@ -20,6 +14,13 @@ footer {
     height: 30px;
 }
 
+.user-buttons a {
+    margin: 2px;
+}
+
+.user-buttons {
+    text-align: end;
+}
 .flex {
     display: flex;
 }
@@ -41,15 +42,54 @@ footer {
     flex-basis: 20%;
 }
 
+
+.gender-type {
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+
+.fa,
+.gender-type {
+    color: white;
+    text-decoration: none;
+}
+
 .main-logo {
     flex-basis: 60%;
+    text-align: center;
+}
+
+.logo {
+    width: 75px;
+    margin: 10px 0;
 }
 
 .dress {
-    height: 350px;
-    width: 200px;
+    width: calc((100% / 3) - 7px);
     margin-top: 20px;
-    background-color: lightgrey;
+}
+
+.brand,
+.discount {
+    font-size: .8rem;
+}
+
+.dress-type,
+.price{
+    font-weight: bold;
+
+}
+.price {
+    font-size: .8rem;
+    color: red;
+}
+
+.discount{
+    color: black;
+    text-decoration:line-through;
+    font-weight: 100;
+    padding-left: 3px;
 }
 
 .central-dress {
