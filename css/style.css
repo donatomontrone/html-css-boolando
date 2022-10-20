@@ -5,9 +5,6 @@
     box-sizing: border-box;
 }
 
-header {
-    background-color: #FF6801;
-}
 footer {
     background-color: black;
     height: 70px;
@@ -16,7 +13,7 @@ footer {
 
 .second-img {
     display: none;
-}
+} 
 
 article:hover  .second-img{
     display:block;
@@ -24,7 +21,7 @@ article:hover  .second-img{
 
 article:hover .first-img{
     display: none;
-}
+} 
 
 
 .user-buttons {
@@ -49,7 +46,7 @@ article:hover .first-img{
 .flex-centered {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .flex-column {
@@ -120,10 +117,6 @@ padding-right: 110px;
     text-decoration:line-through;
     font-weight: 100;
     padding-left: 3px;
-}
-
-.central-dress {
-    margin: 100px 10px 0;
 }
 
 .contacts {
